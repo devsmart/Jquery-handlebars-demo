@@ -1,0 +1,18 @@
+{{#each data}}
+    <li class="emp" data-emp-id="{{id}}">
+        <div class="img">
+            <img src="/pics/{{pic}}" alt="profile picture"/>
+        </div>
+        <div class="detail">
+            <div class="pull-left">
+                <h3>{{firstName}} {{lastName}}</h3>
+
+                <p>{{title}}</p>
+            </div>
+            <div class="pull-right">
+                <span class="chevron"></span>
+                <span class="count">{{reports}}</span>
+            </div>
+        </div>
+    </li>
+{{/each}}
